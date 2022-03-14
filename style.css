@@ -1,61 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-    font-family: Bebas Neue,sans-serif;
-    background: whitesmoke;
+body {
+  margin: 0;
+  font-family: Bebas Neue, sans-serif;
+  background: whitesmoke;
 }
 
-h1{
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: 40px;
-    letter-spacing: 5px;
-
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-indent: 5px;
 }
 
 /* loader */
-.loader{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.8);
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
 }
-.loader img{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-}
-
- /* image coantiners */
- .image-container{
-    margin: 10px 20% ;
-
- }
- .image-container img{
-    margin-bottom: 30px;
-    max-width: 100%;
-    margin-bottom: 10px;
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width:1000px) {
-    
-    .image-container{
-        margin: 10px 10px;
-    }
-    h1{
-        font-size: 30px;
-    }
+/* image coantiners */
+.image-container {
+  margin: 10px 20%;
+  align-items: center;
+  padding: 0;
+}
+.image-container img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .image-container {
+    margin: 10px 10px;
+  }
+  h1 {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
